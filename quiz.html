@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online IQ Tester</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="next-page.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the IQ Tester!</h1>
+  </header>
+ 
+  
+  <main>
+    <section id="quiz-section">
+      <h2>IQ Title</h2>
+      <p>Test it now and get your score!</p>
+      <button id="start-quiz-btn">Start Test</button>
+     
+    </section>
+  
+
+    <section id="question-section" class="hidden">
+      <h2>Question</h2>
+      <div id="options-container">
+        <input type="radio" name="answer" id="option1">
+        <label for="option1">Option 1</label>
+        <input type="radio" name="answer" id="option2">
+        <label for="option2">Option 2</label>
+        <!-- Add more options as needed -->
+      </div>
+      <button id="next-question-btn">Next</button>
+    </section>
+
+    <section id="result-section" class="hidden">
+      <h2>Quiz Results</h2>
+      <p>Your Score: <span id="score">0</span></p>
+      <button id="show-answers-btn">Show Answers</button>
+    </section>
+    
+  </main>
+
+  
+  <div id="result" style="display: none;">
+    <h2>Quiz Result</h2>
+    <div id="answers">
+      <!-- The generated HTML code for answers will be inserted here -->
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

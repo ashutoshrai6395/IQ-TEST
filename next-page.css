@@ -1,0 +1,51 @@
+/* CSS styles for the second page after clicking Start Quiz */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1161439188/vector/new-realistic-neon-sign-of-quiz-frame-logo-for-decoration-and-covering-on-the-dark-wall.jpg?s=612x612&w=0&k=20&c=pnJ85JqZMpULy4dV1H6cyDzOTvWI8GfndXvFuxx54Y0=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container h2 {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}

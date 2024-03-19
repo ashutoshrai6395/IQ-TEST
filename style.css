@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/premium-photo/glowing-human-brain-illustration-design-concept-with-dark-black-background_800563-626.jpg?w=2000');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Header Section */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Section */
+main {
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Quiz Section */
+#quiz-section {
+  font-size: 50px;
+  animation: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  color: chocolate;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#start-quiz-btn {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  animation: reverse;
+  color: black;
+  margin-top: 40px;
+}
+
+/* Question Section */
+#question-section {
+  font-size: 40px;
+  animation:both ;
+  color:gold
+
+}
+
+#options-container {
+  font-size: 40px;
+  animation: forwards;
+  color: #f6e8e8;
+  margin-top: 30px;
+  text-align: left;
+}
+
+#options-container input[type="radio"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #cf8989;
+  border-radius: 50%;
+  font-size: 40px;
+  animation: forwards;
+ color: #fff;
+  margin-right: 20px;
+}
+
+/* Result Section */
+#result-section {
+  font-size: 50px;
+  animation: infinite;
+  text-align: center;
+ color: rgb(206, 37, 37);
+}
+
+#score {
+  color: antiquewhite;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
